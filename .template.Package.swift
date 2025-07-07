@@ -21,7 +21,7 @@ let package = Package(
         ),
         .package(
             name: "GenesysCloudMessengerTransport",
-            url: "https://github.com/MyPureCloud/mm-genesyscloudmessengertransport-spm.git",
+            url: "https://github.com/MyPureCloud/__transport_repo_name__.git",
             .exact("__transport_version__")
         )
     ],
