@@ -17,19 +17,19 @@ let package = Package(
         .package(
             name: "GenesysCloudCore",
             url: "https://github.com/MyPureCloud/mobile-messenger-genesyscloudcore-spm-dev.git",
-            .exact("1.18.0")
+            .exact("1.16.1")
         ),
         .package(
             name: "GenesysCloudMessengerTransport",
-            url: "https://github.com/MyPureCloud/mm-genesyscloudmessengertransport-spm.git",
-            .exact("2.9.1")
+            url: "https://github.com/MyPureCloud/mm-genesyscloudmessengertransport-spm-dev.git",
+            .exact("2.9.2-rc2")
         )
     ],
     targets: [
         .binaryTarget(
             name: "GenesysCloudMessenger",
-            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_1.18.0-SNAPSHOT-feature-GMMS-7966-cards-and-carousels-4_commit_98b785d0f834fe4585ce103d2536397289641bdd.zip",
-            checksum: "2c76af86f595fb8f015ee2865685b24e3546b569fc49807a711b879415937981"
+            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_1.16.1-SNAPSHOT-hotfix-1.16.1-3_commit_591f05a8c1632423fa4d3299e6643d108b792080.zip",
+            checksum: "16172d891747380e855cdd6c2d382e1481dd21fe4770ed2f682e480eff916ef1"
         ),
         .target(
             name: "GenesysCloudMessengerWrapper",
