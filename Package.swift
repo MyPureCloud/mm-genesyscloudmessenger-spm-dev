@@ -28,8 +28,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GenesysCloudMessenger",
-            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_1.18.0-SNAPSHOT-PR-70-4_commit_95295c6abdfb8139aefa4bf57f217ba22a25ef5b.zip",
-            checksum: "e5fd6f43bc47de63b56e4f0d2ce365434e4e0fd8db1ac2e959323abb252dd349"
+            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_1.18.0-SNAPSHOT-PR-70-5_commit_95295c6abdfb8139aefa4bf57f217ba22a25ef5b.zip",
+            checksum: "7e90ce9a2f49e556b7e1a0c1b40c407f35d9575fa262e3aae3eb717137be0055"
         ),
         .target(
             name: "GenesysCloudMessengerWrapper",
