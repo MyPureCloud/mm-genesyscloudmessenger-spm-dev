@@ -21,15 +21,15 @@ let package = Package(
         ),
         .package(
             name: "GenesysCloudMessengerTransport",
-            url: "https://github.com/MyPureCloud/mm-genesyscloudmessengertransport-spm-dev.git",
-            .exact("2.10.1-rc1")
+            url: "https://github.com/MyPureCloud/mm-genesyscloudmessengertransport-spm.git",
+            .exact("2.10.1")
         )
     ],
     targets: [
         .binaryTarget(
             name: "GenesysCloudMessenger",
-            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_0.0.1-SNAPSHOT-PR-108-15_commit_697da5db909bd01604872883933b09ddf766fac2.zip",
-            checksum: "23f60ace077a622d3c19676ba94ba2012bb816baa47974f23ed7c0fcc54ca03b"
+            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_0.0.1-SNAPSHOT-PR-120-12_commit_0cd9c3e145ff8277b6fe78954b724703d923ab14.zip",
+            checksum: "1aa195840b62e532fe41a2f8465fc4a618ad6bc3a031dd1d9b8298929acdb96e"
         ),
         .target(
             name: "GenesysCloudMessengerWrapper",
