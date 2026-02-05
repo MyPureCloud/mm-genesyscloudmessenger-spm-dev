@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "GenesysCloudMessengerTransport",
-        "repositoryURL": "https://github.com/MyPureCloud/mm-genesyscloudmessengertransport-spm.git",
+        "repositoryURL": "https://github.com/MyPureCloud/mm-genesyscloudmessengertransport-spm-dev.git",
         "state": {
           "branch": null,
-          "revision": "b27b99f0eeb32f468344f4f5474d7f6443ced82a",
-          "version": "2.11.0"
+          "revision": "412abdf8ff48855ae5ce1a163af8ea7fa1c2c7ba",
+          "version": "2.11.0-rc4"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/MyPureCloud/mobile-messenger-genesyscloudcore-spm-dev.git",
         "state": {
           "branch": null,
-          "revision": "57633eb0b7bfd971d6730cb26294bcb23106d3b3",
-          "version": "1.21.0"
+          "revision": "e3afce1b3bcb5e05a0de18fd12312819cfec1c59",
+          "version": "1.20.1-snapshot-feature-embed-sample-app-102"
         }
       }
     ]
